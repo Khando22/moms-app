@@ -8,18 +8,23 @@
     margin: auto;
 }
 
+body {
+    font-size: large;
+}
+
 #add-item {
     border: 1px solid black;
 }
 
 .input {
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-left: 0 auto;;
 }
 
 .label {
@@ -31,12 +36,29 @@
     display: flex;
 }
 
-#list > li{
+#list > li {
     list-style-type: none;
     margin: 10px auto;
+    
 }
 
 #list div {
     margin-bottom: 10px;
     text-align: center;
 }
+
+
+
+button {
+    padding: 10px 20px;
+    width: 100px;
+    margin: 0 5px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
